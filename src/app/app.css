@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Card style */
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+/* Form layout */
+.form-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.form-row input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* Buttons */
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background: #333;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background: #333;
+  color: white;
+  padding: 12px;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+  background: #f9f9f9;
+}
+
+/* Action buttons */
+td button:first-child {
+  background: #007bff;
+  margin-right: 5px;
+}
+
+td button:last-child {
+  background: #dc3545;
+}

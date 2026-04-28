@@ -1,3 +1,57 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  padding: 30px;
+  font-family: Arial, sans-serif;
+  background: #f5f6fa;
+}
 
-@import 'tailwindcss';
+h2 {
+  margin-top: 20px;
+  margin-bottom: 12px;
+}
+
+form {
+  background: white;
+  padding: 18px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+input {
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background: #333;
+  color: white;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+th {
+  background: #333;
+  color: white;
+  padding: 12px;
+}
+
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+  background: #f2f2f2;
+}
